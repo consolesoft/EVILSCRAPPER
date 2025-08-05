@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🕵️‍♂️ EvilScrapper Chrome Extension
 
 This is a powerful lead extractor that scrapes emails, phone numbers, usernames, and more from websites using advanced regex and backend intelligence.
@@ -58,13 +58,13 @@ Contact the admin on **[gamethe0ry](https://t.me/gamethe0ry)** for activation or
 ## 📁 Folder Structure
 
 ```
-
 evilscrapper/
 ├── popup.html
 ├── popup.js
 ├── background.js
 ├── manifest.json
 ├── icon.png
+
 ```
 
 ---
