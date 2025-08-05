@@ -1,13 +1,10 @@
-Here’s a simple `README.md` for your project:
-
----
 
 ```markdown
 # 🕵️‍♂️ EvilScrapper Chrome Extension
 
 This is a powerful lead extractor that scrapes emails, phone numbers, usernames, and more from websites using advanced regex and backend intelligence.
 
----
+
 
 ## ⚙️ How to Install
 
