@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Evil Scrapper</title>
+  <style>
+    body {
+      background: #e0e5ec;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    #openPanel {
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      background: #e0e5ec;
+      color: #333;
+      box-shadow: 
+        8px 8px 16px #c5c9cf,
+        -8px -8px 16px #ffffff;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    #openPanel:hover {
+      box-shadow:
+        inset 4px 4px 8px #c5c9cf,
+        inset -4px -4px 8px #ffffff;
+    }
+
+    #openPanel:active {
+      transform: scale(0.98);
+    }
+  </style>
+</head>
+<body>
+  <button id="openPanel">📂 Open Panel</button>
+  <script src="popup.js"></script>
+</body>
+</html>

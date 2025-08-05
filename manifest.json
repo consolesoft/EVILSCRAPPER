@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Evil Scrapper",
+    "version": "1.0",
+    "permissions": ["scripting", "tabs"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }],
+    "host_permissions": ["*://*/*"],
+    "icons": {
+        "16": "image.png",
+        "48": "image.png",
+        "128": "image.png"
+      },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
